@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "react-phone-number-input/style.css";
+
+:root {
+  --font-quicksand: "Quicksand", sans-serif;
+  --font-public-sans: "Public Sans", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.quicksand {
+  font-family: var(--font-quicksand);
+}
+
+.public-sans {
+  font-family: var(--font-public-sans);
+}
+
+.montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.roboto {
+  font-family: var(--font-roboto);
+}
+
+.poppins {
+  font-family: var(--font-poppins);
+}
+
+.inter {
+  font-family: var(--font-inter);
+}
+
+.testimonial-wrapper .swiper {
+  height: 400px !important;
+}
+
+.testimonial-wrapper .swiper-pagination-bullet-active {
+  background: black !important;
+}
+
+.bg-layout-img {
+  background-image: url("../../public/images/Registration.png") !important;
+}
+
+.phone_wrapper .PhoneInput {
+  border-radius: 8px;
+}
+.phone_wrapper .PhoneInputCountry {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+}
+.phone_wrapper .PhoneInputInput {
+  height: 50px;
+  border-radius: 8px;
+  padding-left: 12px !important;
+  border: 1px solid rgba(0, 0, 0, 0.175) !important;
+}
+.phone_wrapper .PhoneInputInput:focus{
+  border: 1px solid #EBB51D !important;
+}
+.phone_wrapper .PhoneInput:focus-visible {
+  border: none !important;
+}
+.phone_wrapper .PhoneInput--focus :focus-visible {
+  outline: none !important;
+}
